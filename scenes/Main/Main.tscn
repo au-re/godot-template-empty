@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://components/RTSCamera/Camera.tscn" type="PackedScene" id=1]
+
+[node name="Main" type="Spatial"]
+
+[node name="CameraRig" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 0.557368, -0.830265, 0, 0.830265, 0.557368, 0, 3.24935, 5.506 )

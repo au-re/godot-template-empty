@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://ui/Button/Button.gd" type="Script" id=1]
+[ext_resource path="res://assets/fonts/button_font.tres" type="DynamicFont" id=2]
+[ext_resource path="res://assets/sounds/UI03.wav" type="AudioStream" id=3]
+
+[node name="Button" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Label" type="Label" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color = Color( 0.101961, 0.101961, 0.101961, 1 )
+text = "Placeholder"
+align = 1
+valign = 1
+
+[node name="UI" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )

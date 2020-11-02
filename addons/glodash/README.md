@@ -1,0 +1,3 @@
+## glodash
+
+Lodash for gdscript

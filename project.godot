@@ -16,7 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="godot-template-empty"
-run/main_scene="res://scenes/Template/Template.tscn"
+run/main_scene="res://scenes/Start/Start.tscn"
 config/icon="res://assets/icon/icon.png"
 
 [autoload]
@@ -25,4 +25,4 @@ SCENE="*res://globals/SCENE.gd"
 
 [rendering]
 
-environment/default_environment="res://default_env.tres"
+environment/default_environment="res://environments/default_env.tres"

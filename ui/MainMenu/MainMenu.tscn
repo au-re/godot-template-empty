@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://ui/MainMenu/MainMenu.gd" type="Script" id=1]
+[ext_resource path="res://ui/Button/Button.tscn" type="PackedScene" id=2]
+
+[node name="MainMenu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PlayButton" parent="." instance=ExtResource( 2 )]
+margin_left = 394.762
+margin_top = 146.546
+margin_right = -457.238
+margin_bottom = -381.454
+label = "Play"
+
+[node name="ControlsButton" parent="." instance=ExtResource( 2 )]
+margin_left = 392.703
+margin_top = 235.059
+margin_right = -455.297
+margin_bottom = -287.941
+rect_pivot_offset = Vector2( 130.902, 18.9572 )
+label = "Controls"
+
+[node name="ExitButton" parent="." instance=ExtResource( 2 )]
+margin_left = 396.941
+margin_top = 334.649
+margin_right = -451.059
+margin_bottom = -188.351
+rect_pivot_offset = Vector2( 130.902, 18.9572 )
+label = "Exit"

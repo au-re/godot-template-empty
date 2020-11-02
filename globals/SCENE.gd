@@ -3,8 +3,7 @@ extends Node
 signal scene_changed()
 
 export var main_menu = "res://scenes/MainMenu/MainMenu.tscn"
-export var game = "res://scenes/Template/Template.tscn"
-
+export var game = "res://scenes/Main/Main.tscn"
 
 func go_to_main_menu():
 	load_scene(main_menu)
